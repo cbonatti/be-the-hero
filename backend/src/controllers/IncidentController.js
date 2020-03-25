@@ -33,7 +33,6 @@ module.exports = {
     },
 
     async delete (req, res) {
-        debugger;
         const { id } = req.params;
         const ong_id = req.headers.authorization;
 
